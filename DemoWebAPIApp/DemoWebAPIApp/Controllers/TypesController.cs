@@ -18,7 +18,7 @@ namespace DemoWebAPIApp.Controllers
         public TypesController(AppDbContext context) {
             _context = context;
         }
-        [HttpGet]
+        /*[HttpGet]
         public IActionResult GetAll() {
             var listType = _context.Types.ToList();
             return Ok(listType);
@@ -76,6 +76,6 @@ namespace DemoWebAPIApp.Controllers
             {
                 return BadRequest();
             }
-        }
+        }*/
     }
 }
