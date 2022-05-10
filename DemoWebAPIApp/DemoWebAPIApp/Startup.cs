@@ -37,6 +37,7 @@ namespace DemoWebAPIApp
             });
 
             services.AddScoped<ITypeRepository, TypeRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddSwaggerGen(c =>
             {
